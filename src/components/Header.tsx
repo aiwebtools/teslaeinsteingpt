@@ -16,14 +16,14 @@ const Header = () => {
                   <Atom className="w-8 h-8 text-blue-500" />
                 </div>
                 <div className="text-left">
-                  <h1 className="flex flex-col text-xl font-bold">
-                    <span className="bg-gradient-to-r from-purple-400 via-blue-500 to-purple-600 bg-clip-text text-transparent">
+                  <h1 className="flex flex-col text-xl font-bold tracking-tight">
+                    <span className="text-purple-500 font-extrabold drop-shadow-[0_0_0.3rem_#9333ea70]">
                       NIKOLA TESLA GPT
                     </span>
-                    <span className="bg-gradient-to-r from-purple-400 via-blue-500 to-purple-600 bg-clip-text text-transparent text-center">
+                    <span className="text-white/90 text-center font-bold text-2xl">
                       &
                     </span>
-                    <span className="bg-gradient-to-r from-purple-400 via-blue-500 to-purple-600 bg-clip-text text-transparent">
+                    <span className="text-blue-500 font-extrabold drop-shadow-[0_0_0.3rem_#3b82f670]">
                       ALBERT EINSTEIN GPT
                     </span>
                   </h1>
@@ -37,33 +37,33 @@ const Header = () => {
               </div>
             </NavigationMenuItem>
             <NavigationMenuItem className="flex gap-4 ml-auto">
-              <Button variant="outline" className="hover:bg-purple-500/10 hover:text-purple-400 transition-all" asChild>
+              <Button variant="secondary" className="bg-purple-600 hover:bg-purple-700 text-white border-none" asChild>
                 <a href="https://chatgpt.com/g/g-srijCvGOl-nikola-teslagpt">
                   <Zap className="w-4 h-4" />
                   Speak to Nikola Tesla
                   <ExternalLink className="w-4 h-4" />
                 </a>
               </Button>
-              <Button variant="outline" className="hover:bg-blue-500/10 hover:text-blue-400 transition-all" asChild>
+              <Button variant="secondary" className="bg-blue-600 hover:bg-blue-700 text-white border-none" asChild>
                 <a href="https://chatgpt.com/g/g-67ad4fee897c8191b525da37ebe26bb5-albert-einstein-gpt">
                   <Atom className="w-4 h-4" />
                   Speak to Albert Einstein GPT
                   <ExternalLink className="w-4 h-4" />
                 </a>
               </Button>
-              <Button variant="outline" className="hover:bg-gray-500/10 hover:text-gray-400 transition-all" asChild>
+              <Button variant="outline" className="bg-purple-500/10 hover:bg-purple-500/20 text-purple-400 border-purple-500/50" asChild>
                 <a href="#faq">
                   <HelpCircle className="w-4 h-4" />
                   FAQ
                 </a>
               </Button>
-              <Button variant="outline" className="hover:bg-gray-500/10 hover:text-gray-400 transition-all" asChild>
+              <Button variant="outline" className="bg-purple-500/10 hover:bg-purple-500/20 text-purple-400 border-purple-500/50" asChild>
                 <a href="#disclaimer">
                   <AlertCircle className="w-4 h-4" />
                   Disclaimer
                 </a>
               </Button>
-              <Button variant="outline" className="hover:bg-gray-500/10 hover:text-gray-400 transition-all" asChild>
+              <Button variant="outline" className="bg-purple-500/10 hover:bg-purple-500/20 text-purple-400 border-purple-500/50" asChild>
                 <a href="https://www.aiwebtools.ai">
                   <Wrench className="w-4 h-4" />
                   More AI Tools
