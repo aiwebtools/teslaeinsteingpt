@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
 import VideoSection from "@/components/VideoSection";
+import TeslaSection from "@/components/TeslaSection";
 import EinsteinSection from "@/components/EinsteinSection";
 import EinsteinVideoSection from "@/components/EinsteinVideoSection";
 import FAQSection from "@/components/FAQSection";
@@ -17,10 +18,11 @@ const Index = () => {
         <section id="video" className="py-20 px-4">
           <VideoSection />
         </section>
-        <EinsteinSection />
+        <TeslaSection />
         <div className="container mx-auto">
           <hr className="border-white/10 my-20" />
         </div>
+        <EinsteinSection />
         <section className="py-20 px-4 bg-black/50">
           <div className="container mx-auto">
             <h2 className="text-3xl font-bold text-center mb-12 bg-gradient-to-r from-purple-400 to-blue-600 bg-clip-text text-transparent">
