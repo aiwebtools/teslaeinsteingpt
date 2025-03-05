@@ -1,14 +1,13 @@
-
 import { Button } from "@/components/ui/button";
 import { NavigationMenu, NavigationMenuItem, NavigationMenuList } from "@/components/ui/navigation-menu";
 import { Zap, Atom, ExternalLink, HelpCircle, AlertCircle, Wrench } from "lucide-react";
 
 const Header = () => {
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-black/50 backdrop-blur-lg border-b border-white/10">
-      <div className="container mx-auto px-4 py-4">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-black/50 backdrop-blur-lg border-b border-white/10 w-full">
+      <nav className="container mx-auto px-4 py-4 max-w-7xl">
         <NavigationMenu className="max-w-full w-full justify-between">
-          <NavigationMenuList className="gap-4">
+          <NavigationMenuList className="gap-4 flex-wrap">
             <NavigationMenuItem>
               <div className="flex items-center gap-2">
                 <div className="flex gap-1">
@@ -73,7 +72,7 @@ const Header = () => {
             </NavigationMenuItem>
           </NavigationMenuList>
         </NavigationMenu>
-      </div>
+      </nav>
     </header>
   );
 };
