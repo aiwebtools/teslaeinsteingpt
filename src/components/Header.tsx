@@ -16,8 +16,16 @@ const Header = () => {
                   <Atom className="w-8 h-8 text-blue-500" />
                 </div>
                 <div className="text-left">
-                  <h1 className="text-xl font-bold bg-gradient-to-r from-purple-400 via-blue-500 to-purple-600 bg-clip-text text-transparent">
-                    Nikola Tesla GPT & Albert Einstein GPT
+                  <h1 className="flex flex-col text-xl font-bold">
+                    <span className="bg-gradient-to-r from-purple-400 via-blue-500 to-purple-600 bg-clip-text text-transparent">
+                      NIKOLA TESLA GPT
+                    </span>
+                    <span className="bg-gradient-to-r from-purple-400 via-blue-500 to-purple-600 bg-clip-text text-transparent text-center">
+                      &
+                    </span>
+                    <span className="bg-gradient-to-r from-purple-400 via-blue-500 to-purple-600 bg-clip-text text-transparent">
+                      ALBERT EINSTEIN GPT
+                    </span>
                   </h1>
                   <a 
                     href="https://www.aiwebtools.ai" 
@@ -57,4 +65,3 @@ const Header = () => {
 };
 
 export default Header;
-
