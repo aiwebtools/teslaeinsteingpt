@@ -20,6 +20,12 @@ const DisclaimerSection = () => {
             These GPTs are meant for educational and entertainment purposes and should not replace professional scientific or academic advice.
           </li>
           <li>
+            The AI models may have limitations in their understanding of complex scientific concepts and historical contexts.
+          </li>
+          <li>
+            Both Tesla GPT and Einstein GPT are designed to provide insights into their respective fields of expertise - electricity and physics - but should be used as supplementary learning tools only.
+          </li>
+          <li>
             All content generated through these GPTs should be fact-checked and verified through reliable sources.
           </li>
         </ul>

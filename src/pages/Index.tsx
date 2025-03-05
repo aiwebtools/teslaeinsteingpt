@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
 import VideoSection from "@/components/VideoSection";
 import EinsteinSection from "@/components/EinsteinSection";
+import EinsteinVideoSection from "@/components/EinsteinVideoSection";
 import FAQSection from "@/components/FAQSection";
 import DisclaimerSection from "@/components/DisclaimerSection";
 
@@ -14,6 +15,9 @@ const Index = () => {
       <main>
         <HeroSection />
         <EinsteinSection />
+        <section className="py-20 px-4">
+          <EinsteinVideoSection />
+        </section>
         <section id="video" className="py-20 px-4">
           <VideoSection />
         </section>
