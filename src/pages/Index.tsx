@@ -14,12 +14,20 @@ const Index = () => {
       <Header />
       <main>
         <HeroSection />
-        <EinsteinSection />
-        <section className="py-20 px-4">
-          <EinsteinVideoSection />
-        </section>
         <section id="video" className="py-20 px-4">
           <VideoSection />
+        </section>
+        <EinsteinSection />
+        <div className="container mx-auto">
+          <hr className="border-white/10 my-20" />
+        </div>
+        <section className="py-20 px-4 bg-black/50">
+          <div className="container mx-auto">
+            <h2 className="text-3xl font-bold text-center mb-12 bg-gradient-to-r from-purple-400 to-blue-600 bg-clip-text text-transparent">
+              Learn from Einstein
+            </h2>
+            <EinsteinVideoSection />
+          </div>
         </section>
         <section id="faq" className="py-20 px-4">
           <FAQSection />
