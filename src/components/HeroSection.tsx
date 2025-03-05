@@ -2,10 +2,12 @@
 import { motion } from "framer-motion";
 import { Zap, Atom } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import ElectricParticles from "./ElectricParticles";
 
 const HeroSection = () => {
   return (
     <div className="min-h-screen flex items-center justify-center relative overflow-hidden py-20">
+      <ElectricParticles />
       <div className="absolute inset-0 bg-grid-white/10 bg-grid [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]" />
       
       <div className="container mx-auto px-4 relative z-10">
