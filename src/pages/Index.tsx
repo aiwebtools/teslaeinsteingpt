@@ -11,7 +11,7 @@ import DisclaimerSection from "@/components/DisclaimerSection";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-black text-white">
+    <div className="min-h-screen bg-black text-white pt-36 sm:pt-28">
       <Header />
       <main>
         <HeroSection />
