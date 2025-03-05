@@ -1,7 +1,7 @@
 
 import { Button } from "@/components/ui/button";
 import { NavigationMenu, NavigationMenuItem, NavigationMenuList } from "@/components/ui/navigation-menu";
-import { Zap } from "lucide-react";
+import { Zap, Atom } from "lucide-react";
 
 const Header = () => {
   return (
@@ -11,10 +11,13 @@ const Header = () => {
           <NavigationMenuList className="gap-4">
             <NavigationMenuItem>
               <div className="flex items-center gap-2">
-                <Zap className="w-8 h-8 text-purple-500" />
+                <div className="flex gap-1">
+                  <Zap className="w-8 h-8 text-purple-500" />
+                  <Atom className="w-8 h-8 text-blue-500" />
+                </div>
                 <div className="text-left">
-                  <h1 className="text-xl font-bold bg-gradient-to-r from-purple-400 to-blue-500 bg-clip-text text-transparent">
-                    Nikola Tesla GPT
+                  <h1 className="text-xl font-bold bg-gradient-to-r from-purple-400 via-blue-500 to-purple-600 bg-clip-text text-transparent">
+                    Nikola Tesla GPT & Albert Einstein GPT
                   </h1>
                   <a 
                     href="https://www.aiwebtools.ai" 
@@ -54,3 +57,4 @@ const Header = () => {
 };
 
 export default Header;
+
