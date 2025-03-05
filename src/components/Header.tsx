@@ -1,7 +1,7 @@
 
 import { Button } from "@/components/ui/button";
 import { NavigationMenu, NavigationMenuItem, NavigationMenuList } from "@/components/ui/navigation-menu";
-import { Zap, Atom } from "lucide-react";
+import { Zap, Atom, ExternalLink, HelpCircle, AlertCircle, Wrench } from "lucide-react";
 
 const Header = () => {
   return (
@@ -37,24 +37,38 @@ const Header = () => {
               </div>
             </NavigationMenuItem>
             <NavigationMenuItem className="flex gap-4 ml-auto">
-              <Button variant="ghost" asChild>
+              <Button variant="outline" className="hover:bg-purple-500/10 hover:text-purple-400 transition-all" asChild>
                 <a href="https://chatgpt.com/g/g-srijCvGOl-nikola-teslagpt">
+                  <Zap className="w-4 h-4" />
                   Speak to Nikola Tesla
+                  <ExternalLink className="w-4 h-4" />
                 </a>
               </Button>
-              <Button variant="ghost" asChild>
+              <Button variant="outline" className="hover:bg-blue-500/10 hover:text-blue-400 transition-all" asChild>
                 <a href="https://chatgpt.com/g/g-67ad4fee897c8191b525da37ebe26bb5-albert-einstein-gpt">
+                  <Atom className="w-4 h-4" />
                   Speak to Albert Einstein GPT
+                  <ExternalLink className="w-4 h-4" />
                 </a>
               </Button>
-              <Button variant="ghost" asChild>
-                <a href="#faq">FAQ</a>
+              <Button variant="outline" className="hover:bg-gray-500/10 hover:text-gray-400 transition-all" asChild>
+                <a href="#faq">
+                  <HelpCircle className="w-4 h-4" />
+                  FAQ
+                </a>
               </Button>
-              <Button variant="ghost" asChild>
-                <a href="#disclaimer">Disclaimer</a>
+              <Button variant="outline" className="hover:bg-gray-500/10 hover:text-gray-400 transition-all" asChild>
+                <a href="#disclaimer">
+                  <AlertCircle className="w-4 h-4" />
+                  Disclaimer
+                </a>
               </Button>
-              <Button variant="ghost" asChild>
-                <a href="https://www.aiwebtools.ai">More AI Tools</a>
+              <Button variant="outline" className="hover:bg-gray-500/10 hover:text-gray-400 transition-all" asChild>
+                <a href="https://www.aiwebtools.ai">
+                  <Wrench className="w-4 h-4" />
+                  More AI Tools
+                  <ExternalLink className="w-4 h-4" />
+                </a>
               </Button>
             </NavigationMenuItem>
           </NavigationMenuList>
