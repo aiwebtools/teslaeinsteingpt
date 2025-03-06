@@ -20,6 +20,11 @@ const Footer = () => {
                 </a>
               </Button>
               <Button variant="link" className="text-gray-200 hover:text-white" asChild>
+                <a href="https://alanwattsgpt.lovable.app/">
+                  Speak to Alan Watts GPT
+                </a>
+              </Button>
+              <Button variant="link" className="text-gray-200 hover:text-white" asChild>
                 <a href="#faq">FAQ</a>
               </Button>
             </div>
