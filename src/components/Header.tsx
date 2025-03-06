@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { NavigationMenu, NavigationMenuItem, NavigationMenuList } from "@/components/ui/navigation-menu";
 import { Zap, Atom, ExternalLink, HelpCircle, AlertCircle, Wrench } from "lucide-react";
@@ -69,7 +68,7 @@ const Header = () => {
                 <Button variant="outline" size="sm" className="bg-purple-500/10 hover:bg-purple-500/20 text-purple-400 border-purple-500/50 text-xs sm:text-sm" asChild>
                   <a href="https://www.aiwebtools.ai">
                     <Wrench className="w-3 h-3 sm:w-4 sm:h-4" />
-                    Tools
+                    More AI Tools
                     <ExternalLink className="w-3 h-3 sm:w-4 sm:h-4" />
                   </a>
                 </Button>
