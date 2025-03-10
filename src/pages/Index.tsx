@@ -1,4 +1,3 @@
-
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
@@ -8,10 +7,12 @@ import EinsteinSection from "@/components/EinsteinSection";
 import EinsteinVideoSection from "@/components/EinsteinVideoSection";
 import FAQSection from "@/components/FAQSection";
 import DisclaimerSection from "@/components/DisclaimerSection";
+import DisclaimerDialog from "@/components/DisclaimerDialog";
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-black text-white pt-36 sm:pt-28">
+      <DisclaimerDialog />
       <Header />
       <main>
         <HeroSection />
