@@ -37,24 +37,36 @@ const HeroSection = () => {
           </div>
           
           <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-purple-400 via-blue-500 to-purple-600 bg-clip-text text-transparent">
-            Scientific Genius GPTs
+            Free AI Tools by AIWEBTOOLS.AI
           </h1>
           
+          <h2 className="text-2xl md:text-3xl font-semibold mb-4 text-gray-200">
+            Tesla GPT & Einstein GPT
+          </h2>
+          
           <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-            Engage with the brilliant minds of Nikola Tesla and Albert Einstein. Experience breakthrough innovations and explore the frontiers of science and physics.
+            Experience revolutionary AI conversations with the brilliant minds of Nikola Tesla and Albert Einstein. Free AI tools for education, physics, and breakthrough innovations from AI WEB TOOLS.
           </p>
           
           <div className="flex gap-4 justify-center">
             <Button size="lg" className="bg-purple-600 hover:bg-purple-700" asChild>
               <a href="https://chatgpt.com/g/g-srijCvGOl-nikola-teslagpt">
-                Chat with Tesla
+                Chat with Tesla GPT
               </a>
             </Button>
             <Button size="lg" className="bg-blue-600 hover:bg-blue-700" asChild>
               <a href="https://chatgpt.com/g/g-67ad4fee897c8191b525da37ebe26bb5-albert-einstein-gpt">
-                Chat with Einstein
+                Chat with Einstein GPT
               </a>
             </Button>
+          </div>
+          
+          {/* SEO content */}
+          <div className="mt-8 text-sm text-gray-400 max-w-3xl mx-auto">
+            <p>
+              Powered by AIWEBTOOLS.AI - Your trusted source for free AI tools and advanced artificial intelligence solutions. 
+              Explore our collection of educational AI tools designed for students, educators, and professionals.
+            </p>
           </div>
         </motion.div>
       </div>
