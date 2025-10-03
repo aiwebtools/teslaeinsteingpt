@@ -60,7 +60,7 @@ const Footer = () => {
             © 2025 AI WEB TOOLS LLC All rights reserved.
           </a>
           <Button className="rounded-full bg-purple-600 hover:bg-purple-700" asChild>
-            <a href="https://www.aiwebtools.ai">More AI Tools</a>
+            <a href="https://www.ai-webtools.com">More AI Tools</a>
           </Button>
         </div>
       </div>

@@ -66,7 +66,7 @@ const Header = () => {
                   </a>
                 </Button>
                 <Button variant="outline" size="sm" className="bg-purple-500/10 hover:bg-purple-500/20 text-purple-400 border-purple-500/50 text-xs sm:text-sm" asChild>
-                  <a href="https://www.aiwebtools.ai">
+                  <a href="https://www.ai-webtools.com">
                     <Wrench className="w-3 h-3 sm:w-4 sm:h-4" />
                     More AI Tools
                     <ExternalLink className="w-3 h-3 sm:w-4 sm:h-4" />
