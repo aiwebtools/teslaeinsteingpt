@@ -12,7 +12,7 @@ import DisclaimerDialog from "@/components/DisclaimerDialog";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-black text-white pt-36 sm:pt-28">
+    <div className="min-h-screen bg-black text-white pt-20">
       <DisclaimerDialog />
       <Header />
       <main>

@@ -56,11 +56,11 @@ const Footer = () => {
           </div>
         </div>
         <div className="mt-8 pt-8 border-t border-white/10 flex items-center justify-between">
-          <a href="https://www.aiwebtools.ai" className="text-gray-200 hover:text-white transition-colors">
+          <a href="https://aiwebtools.lovable.app/?via=aiwebtools" target="_blank" rel="noopener noreferrer" className="text-gray-200 hover:text-white transition-colors">
             © 2025 AI WEB TOOLS LLC All rights reserved.
           </a>
           <Button className="rounded-full bg-purple-600 hover:bg-purple-700" asChild>
-            <a href="https://www.ai-webtools.com">More AI Tools</a>
+            <a href="https://aiwebtools.lovable.app/?via=aiwebtools" target="_blank" rel="noopener noreferrer">More AI Tools</a>
           </Button>
         </div>
       </div>
