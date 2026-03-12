@@ -36,7 +36,7 @@ const Footer = () => {
                 <a href="https://openai.com/policies/privacy-policy/">Privacy Policy</a>
               </Button>
               <Button variant="link" className="text-gray-200 hover:text-white" asChild>
-                <a href="https://aiwebtools.ai/terms-of-services">Terms of Service</a>
+                <a href="https://aiwebtools.lovable.app/?via=aiwebtools" target="_blank" rel="noopener noreferrer">Terms of Service</a>
               </Button>
               <Button variant="link" className="text-gray-200 hover:text-white" asChild>
                 <a href="#disclaimer">Disclaimer</a>
